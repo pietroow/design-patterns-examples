@@ -2,14 +2,10 @@ package observer;
 
 import observer.abstracts.Observer;
 import observer.abstracts.Subject;
-import lombok.Getter;
-import lombok.Setter;
 
 import java.util.ArrayList;
 import java.util.List;
 
-@Getter
-@Setter
 public class Vitima implements Subject {
 
     private Boolean dandoSopa;
@@ -25,5 +21,21 @@ public class Vitima implements Subject {
 
     public void notifyObservers(Object o) {
         observadores.forEach(observer -> observer.update(o));
+    }
+
+    public Boolean getDandoSopa() {
+        return dandoSopa;
+    }
+
+    public List<Observer> getObservadores() {
+        return observadores;
+    }
+
+    public void setDandoSopa(Boolean dandoSopa) {
+        this.dandoSopa = dandoSopa;
+    }
+
+    public void setObservadores(List<Observer> observadores) {
+        this.observadores = observadores;
     }
 }

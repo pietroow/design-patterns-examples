@@ -2,14 +2,10 @@ package observer;
 
 import observer.abstracts.Observer;
 import observer.abstracts.Subject;
-import lombok.Getter;
-import lombok.Setter;
 
 import java.util.ArrayList;
 import java.util.List;
 
-@Getter
-@Setter
 public class Ladrao implements Subject, Observer<Vitima> {
 
     private Boolean roubarBolsa;
@@ -39,5 +35,13 @@ public class Ladrao implements Subject, Observer<Vitima> {
             this.roubarBolsa = false;
         }
         this.notifyObservers(this);
+    }
+
+    public Boolean getRoubarBolsa() {
+        return roubarBolsa;
+    }
+
+    public List<Observer> getObservadores() {
+        return observadores;
     }
 }

@@ -2,11 +2,7 @@ package observer;
 
 import observer.abstracts.Observer;
 import observer.abstracts.Subject;
-import lombok.Getter;
-import lombok.Setter;
 
-@Getter
-@Setter
 public class Policia implements Observer<Ladrao> {
 
     public Policia(Subject subject) {
@@ -20,5 +16,4 @@ public class Policia implements Observer<Ladrao> {
             System.out.println("observer.Policia: Ficar de boa!!");
         }
     }
-
 }
