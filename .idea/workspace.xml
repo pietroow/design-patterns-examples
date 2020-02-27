@@ -1,14 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a1160b69-d860-44a6-9746-7226918ab2cc" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/strategy/CalculadoraDeImpostos.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/strategy/ICCC.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/strategy/ICMS.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/strategy/ISS.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/strategy/Imposto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/strategy/Orcamento.java" afterDir="false" />
+    <list default="true" id="c96ddc33-9a78-4c9f-b9f7-c2fc4dcaf948" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/state/Aprovado.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/state/EmAprovacao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/state/EstadoDeUmOrcamento.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/state/Finalizado.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/state/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/state/Reprovado.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/strategy/Item.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/templateMethod/ICPP.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/templateMethod/ImpostoTemplate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/strategy/Orcamento.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/strategy/Orcamento.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/strategy/Orcamento.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/strategy/Orcamento.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -16,45 +22,23 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="DefaultGradleProjectSettings">
-    <option name="testRunner" value="GRADLE" />
-    <option name="delegatedBuild" value="true" />
-  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="MavenImportPreferences">
-    <option name="importingSettings">
-      <MavenImportingSettings>
-        <option name="importAutomatically" value="true" />
-      </MavenImportingSettings>
-    </option>
-  </component>
-  <component name="ProjectId" id="1RLLNlT4XmM7LphcQJblHsGhDqq" />
+  <component name="ProjectId" id="1RtgOnwoJJCqCS2b5pHFx0sEVl1" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552524166829" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
-    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
-  </component>
-  <component name="RecentsManager">
-    <key name="CreateBuilderDialog.RecentsKey">
-      <recent name="builder" />
-    </key>
+    <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -68,48 +52,22 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.CalculadoraDeImpostos">
-    <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="builder.App" />
-      <module name="design-patterns-examples" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="builder.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CalculadoraDeImpostos" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="strategy.CalculadoraDeImpostos" />
-      <module name="design-patterns-examples" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="strategy.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="command.Main" />
-      <module name="design-patterns-examples" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="command.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="observer.Main" />
+      <option name="MAIN_CLASS_NAME" value="state.Main" />
+      <module name="DesignPatterns" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="state.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Teste" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Teste" />
       <module name="DesignPatterns" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -117,10 +75,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.CalculadoraDeImpostos" />
-        <item itemvalue="Application.Main (1)" />
-        <item itemvalue="Application.App" />
         <item itemvalue="Application.Main" />
+        <item itemvalue="Application.Teste" />
       </list>
     </recent_temporary>
   </component>
@@ -129,18 +85,18 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="a1160b69-d860-44a6-9746-7226918ab2cc" name="Default Changelist" comment="" />
-      <created>1550449934769</created>
+      <changelist id="c96ddc33-9a78-4c9f-b9f7-c2fc4dcaf948" name="Default Changelist" comment="" />
+      <created>1570663230753</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1550449934769</updated>
-      <workItem from="1550449938453" duration="5336000" />
-      <workItem from="1550455311270" duration="598000" />
+      <updated>1570663230753</updated>
+      <workItem from="1570663239068" duration="535000" />
+      <workItem from="1573004257957" duration="9000" />
+      <workItem from="1581300044610" duration="3408000" />
+      <workItem from="1582166146484" duration="11000" />
+      <workItem from="1582770555168" duration="2996000" />
     </task>
     <servers />
-  </component>
-  <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5934000" />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -150,37 +106,12 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
     </option>
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/strategy/ICCC.java</url>
-          <line>8</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
-  </component>
-  <component name="masterDetails">
-    <states>
-      <state key="ProjectJDKs.UI">
-        <settings>
-          <last-edited>1.8</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-    </states>
   </component>
 </project>
