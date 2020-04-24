@@ -2,21 +2,25 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c96ddc33-9a78-4c9f-b9f7-c2fc4dcaf948" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/state/Aprovado.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/state/EmAprovacao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/state/EstadoDeUmOrcamento.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/state/Finalizado.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/state/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/state/Reprovado.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/strategy/Item.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/templateMethod/ICPP.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/templateMethod/ImpostoTemplate.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/decorator/ImpostoMuitoAlto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/decorator/TesteDeImpostos.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/strategy/Orcamento.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/strategy/Orcamento.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/strategy/Orcamento.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/strategy/Orcamento.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/strategy/ICCC.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/strategy/ICCC.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/strategy/ICMS.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/strategy/ICMS.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/strategy/ISS.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/strategy/ISS.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/strategy/Imposto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/strategy/Imposto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/templateMethod/ICPP.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/templateMethod/ICPP.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/templateMethod/ImpostoTemplate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/templateMethod/ImpostoTemplate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/command/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/command/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/strategy/CalculadoraDeImpostos.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/strategy/CalculadoraDeImpostos.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/strategy/ICCC.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/strategy/ICCC.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/strategy/ICMS.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/strategy/ICMS.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/strategy/ISS.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/strategy/ISS.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/strategy/Imposto.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/strategy/Imposto.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templateMethod/ICPP.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templateMethod/ICPP.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templateMethod/ImpostoTemplate.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templateMethod/ImpostoTemplate.class" afterDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -25,8 +29,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -35,22 +39,20 @@
   </component>
   <component name="ProjectId" id="1RtgOnwoJJCqCS2b5pHFx0sEVl1" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
-  </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
   </component>
   <component name="RunManager" selected="Application.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -106,12 +108,25 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State>
-              <option name="COLUMN_ORDER" />
-            </State>
+            <State />
           </value>
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="574" y="119" key="#com.intellij.ide.util.MemberChooser" timestamp="1587694366385">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="574" y="119" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1587694366385" />
+    <state x="115" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1587693391887">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="115" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824@0.0.1536.824" timestamp="1587693391887" />
+    <state x="249" y="0" key="SettingsEditor" timestamp="1587692814968">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="249" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1587692814968" />
   </component>
 </project>

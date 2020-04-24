@@ -1,10 +1,15 @@
 package templateMethod;
 
+import strategy.Imposto;
 import strategy.Orcamento;
 
 import java.math.BigDecimal;
 
 public class ICPP extends ImpostoTemplate {
+
+    public ICPP(Imposto outroImposto) {
+        super(outroImposto);
+    }
 
     @Override
     BigDecimal maximaTaxacao(Orcamento orcamento) {

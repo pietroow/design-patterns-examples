@@ -2,7 +2,14 @@ package strategy;
 
 import java.math.BigDecimal;
 
-public class ICMS implements Imposto {
+public class ICMS extends Imposto {
+
+    public ICMS() {
+    }
+
+    public ICMS(Imposto outroImposto) {
+        super(outroImposto);
+    }
 
     @Override
     public BigDecimal calcula(Orcamento orcamento) {

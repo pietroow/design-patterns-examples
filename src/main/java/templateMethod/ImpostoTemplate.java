@@ -5,7 +5,11 @@ import strategy.Orcamento;
 
 import java.math.BigDecimal;
 
-public abstract class ImpostoTemplate implements Imposto {
+public abstract class ImpostoTemplate extends Imposto {
+
+    public ImpostoTemplate(Imposto outroImposto) {
+        super(outroImposto);
+    }
 
     @Override
     public BigDecimal calcula(Orcamento orcamento) {
